@@ -108,8 +108,6 @@ def open_sizes_file(sizes_path):
     :returns: Pandas DataFrame listing chromosome names and sizes
     """
 
-    chrom_sizes = pd.read_csv(
-        sizes_path,
         delim_whitespace=True,
         header=None,
         names=[
